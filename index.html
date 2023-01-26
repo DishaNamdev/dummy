@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HSC BANK</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="welcome">Welcome to FinBank</h1>
+      <img src="Images/bank_bg.jpg" alt="" class="landingImg" />
+      
+      <div class="newuser lowercontent">
+        <label for="newUser">New User</label>
+        <button
+          onclick="window.location.href = 'templates/RegistrationPage.html'"
+          value="newUser"
+          class="newUserBtn"
+        >
+          Register
+        </button>
+      </div>
+      <div class="registeredUserSys lowercontent">
+        <label for="singin">Registered User</label>
+        <button
+          onclick="window.location.href = 'templates/LoginPage.html'"
+          value="singin"
+          class="singin"
+        >
+          Sign In
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

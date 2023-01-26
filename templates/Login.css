@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.loginpage{
+    margin: 10px;
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+}
+
+.container{
+    width: 600px;
+    background-color: rgb(47, 45, 45);
+    height: 400px;
+    box-sizing: border-box;
+    border: 3px;
+    /* opacity: 0.5; */
+    margin: auto;
+    margin-top: 10%;
+    border-color: black;
+    border-radius: 3px;
+    box-shadow: 5px 5px rgb(19, 19, 17);
+}
+
+h1{
+    margin: auto;
+    width: fit-content;
+    /* z-index: 600; */
+    color: white;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form{
+    margin: auto;
+    width: fit-content;
+    padding-top: 30px;
+}
+
+form > div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 60px;
+}
+
+input{
+    height: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+label{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+    margin: auto;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+    width: 100px;
+    background-color: teal;
+    border: none;
+    border-radius: 3px;
+    margin-left: 42%;
+}
